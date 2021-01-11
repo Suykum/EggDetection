@@ -84,7 +84,7 @@ class App(QWidget):
         p = convert_to_Qt_format.scaled(self.disply_width, self.display_height, Qt.KeepAspectRatio)
         return QPixmap.fromImage(p)
 
-
+#
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     a = App()
